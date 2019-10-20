@@ -34,7 +34,8 @@ public class EBill {
 		ICONS = Collections.unmodifiableList(i);
 	}
 	
-	public static final String CERT_URL = "https://applicazioni.cnipa.gov.it/TSL/_IT_TSL_signed.xml";
+	//public static final String CERT_URL = "https://applicazioni.cnipa.gov.it/TSL/_IT_TSL_signed.xml"; OBSOLETO!
+	public static final String CERT_URL = "https://eidas.agid.gov.it/TL/TSL-IT.xml";
 	public static final String CERT_FILE_NAME = "_IT_TSL_signed.xml";
 	public static final String CERT_REAL_FILE_NAME = "CA.pem";
 	
@@ -43,7 +44,7 @@ public class EBill {
 	public static final String DatiOrdineAcquisto = "Ordine/Acquisto";
 	public static final String DatiDDT = "DDT";
 	
-	public static final String VERSION = "0.9.5.0";
+	public static final String VERSION = "0.9.5.1";
 	public static final String AUTHOR = "Pier Riccardo Monzo";
 	public static final String CHANNEL = "BLEEDING"; //STABLE | BETA | BLEEDING
 

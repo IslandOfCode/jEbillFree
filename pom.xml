@@ -5,7 +5,7 @@
 
 	<groupId>it.islandofcode</groupId>
 	<artifactId>jebill</artifactId>
-	<version>0.9.5.0</version>
+	<version>0.9.5.1</version>
 	<packaging>jar</packaging>
 
 	<name>jebill</name>

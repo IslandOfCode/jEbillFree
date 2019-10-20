@@ -663,9 +663,8 @@ public class GUI implements UIXcommon{
 
 			if(!E.isEmpty() && /*!E.get(0).text().equals(VERSION) &&*/ E.get(0).text().compareTo(EBill.VERSION)>0 ) {
 				toret[0] = E.get(0).text();
-				//toret[1] = "https://www.islandofcode.it/jebillfree/latest/jebill-"+toret[0]+".zip";
-				//https://github.com/IslandOfCode/jebill/releases/download/0.9.4.6/jebill-0.9.4.6.exe
-				toret[1] = "https://github.com/IslandOfCode/jebillfree/releases/download/"+toret[0]+"/jebill-"+toret[0]+".zip";
+				//toret[1] = "https://github.com/IslandOfCode/jebillfree/releases/download/"+toret[0]+"/jebill-"+toret[0]+".zip";
+				toret[1] = doc.getElementsByTag("download").get(0).text();
 				E = doc.getElementsByTag("level");
 				if(!E.isEmpty()) {
 					toret[2] = E.get(0).text();
